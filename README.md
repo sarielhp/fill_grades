@@ -9,15 +9,14 @@ file of the following format in each line:
  It outputs a filled in grades in template file. For safety, the
  output.xlsx file should be different than the input.
 
- Usage:
+# Usage:
 
  julia  fill_grades.jl  input.xlsx  grades.txt  output.xlsx
 
+# Installation
 
  After installing julia, do the following:
 
  Run julia from the command line, and type:
 
  julia> import Pkg;Pkg.add("XLSX");Pkg.add("DataFrames"); Pkg.add( "CSV" );
-
-
